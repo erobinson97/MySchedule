@@ -1,0 +1,29 @@
+﻿
+/*Color Palette adapted from: http://www.colourlovers.com/palette/34448/2_Kool_for_Skool */
+
+body
+{
+}
+
+table{
+    text-align:left;
+}
+tr td{
+    width: 110px;
+}
+th{
+    text-decoration: underline;
+    font-weight:bold;
+}
+
+tr.odd td{
+    background-color: #541F14;
+    color: #CC9E61;
+}
+tr.even td{
+    background-color: #938172;
+}
+tr td:hover{
+    background-color: #CC9E61;
+    color: #020304;
+}
